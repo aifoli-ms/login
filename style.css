@@ -4,7 +4,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ac0000c9; 
+  background-image: url('image1.jpg');
+  background-size: cover; 
   font-family: Arial, sans-serif;
 }
 
