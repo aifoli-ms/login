@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ac0000c9; /* soft blue background */
+  background-color: #ac0000c9; 
   font-family: Arial, sans-serif;
 }
 
@@ -30,7 +30,8 @@ body {
 .login_cont input[type="name"],
 .login_cont input[type="email"],
 .login_cont input[type="text"],
-.login_cont input[type="password"] {
+.login_cont input[type="password"],
+.login_cont select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -42,7 +43,7 @@ body {
 .login-btn {
   width: 100%;
   padding: 12px;
-  background-color: #e94f6e; /* pink button */
+  background-color: #e94f6e; 
   color: white;
   border: none;
   border-radius: 8px;
@@ -54,3 +55,4 @@ body {
 .login-btn:hover {
   background-color: #d23f5a;
 }
+
