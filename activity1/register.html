@@ -9,25 +9,52 @@
   </head>
   <body>
     <div class="login-container">
+      <!-- Our main container for the form -->
+
       <div class="login_cont">
+        <!-- Inner box for the registration form -->
+
         <h2>Attendance Management Registration</h2>
-        <form name="registerForm" onsubmit="return validateRegistration()" method="post">
-         <label for="name">Full Name</label>
-         <input type="name" id="name" name="name" />
+        <!-- Form Heading -->
+        <form
+          name="registerForm"
+          onsubmit="return validateRegistration()"
+          method="post"
+        >
+          <label for="name">Full Name</label>
+          <!-- Label for full name  -->
+
+          <input type="text" id="name" name="name" />
+          <!-- Input field for user's full name  -->
+
           <label for="email">Email</label>
+          <!-- Label for email field -->
+
           <input type="email" id="email" name="email" />
+          <!-- Input field for email -->
 
           <label for="password">Password</label>
-          <input type="password" id="password" name="password" />
+          <!-- Label for password field -->
 
-        <label for="role">Role</label>
-<select id="role" name="role">
-  <option value="">-- Select an option --</option>
-  <option value="lecturer">Lecturer</option>
-  <option value="fi">FI</option>
-  <option value="student">Student</option>
-</select>
+          <input type="password" id="password" name="password" />
+          <!-- Input field for password -->
+
+          <label for="role">Role</label>
+          <!-- Label for the Roles -->
+          <select id="role" name="role">
+            <!-- Select tag for user role -->
+            <option value="">-- Select an option --</option>
+
+            <option value="lecturer">Lecturer</option>
+            <!-- Lecturer option -->
+            <option value="fi">FI</option>
+            <!-- FI option -->
+            <option value="student">Student</option>
+            <!-- Student option -->
+          </select>
+
           <button type="submit" class="login-btn">REGISTER</button>
+          <!-- Submit button for form -->
         </form>
       </div>
     </div>
